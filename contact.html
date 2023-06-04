@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container min-h-screen bg-[url('bg.jpg')] bg-center bg-cover px-28 py-5 relative">
+        <nav class="flex items-center">
+            <img src="logo2.png" class="w-14 cursor-pointer" />
+
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-9"><a href="index.html" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-9"><a href="about.html" class="no-underline text-white px-2">About</a></li>
+                <li class="list-none inline-block px-9"><a href="contact.html" class="no-underline px-2 text-green-400 font-extrabold text-xl">Contact</a></li>
+            </ul>
+
+            <a href="https://www.linkedin.com/in/aryan-prakhar/" class=" hover:border-yellow-300"><img src="linkedin.webp" class="w-20 cursor-pointer" /></a>
+        </nav>
+        <div class="text-white mt-2 max-w-6xl flex items-center"> 
+            
+            <div class="min-h-screen flex items-center justify-center bg-transparent">
+                <div class="bg-transparent p-8">
+                  <h2 class="text-5xl font-bold mb-4">Contact Me</h2>
+                  <form>
+                    <div class="mb-4">
+                      <label for="name" class="block text-neutral-100 font-bold mb-2">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your name" class="text-2xl w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-purple-500 text-black">
+                    </div>
+                    <div class="mb-4">
+                      <label for="email" class="block text-neutral-100  font-bold mb-2">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Your email" class="text-2xl w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-purple-500 text-black">
+                    </div>
+                    <div class="mb-4">
+                      <label for="message" class="block text-neutral-100  font-bold mb-2">Message</label>
+                      <textarea id="message" name="message" placeholder="Your message" rows="4" class="text-2xl w-full px-3 py-2 border border-gray-300 rounded-md resize-none focus:outline-none focus:border-purple-500 text-black"></textarea>
+                    </div>
+                    <button type="submit" class="bg-purple-500 text-white py-2 px-4 rounded-md hover:bg-purple-600 transition-colors">Submit</button>
+                  </form>
+                </div>
+              </div>
+              <img src="meme.png" alt="Your Image" class="absolute right-32 w-3/12 rounded-bl-3xl rounded-tr-3xl items-start">
+
+        </div>
+    </div>
+
+</body>
+</html>
